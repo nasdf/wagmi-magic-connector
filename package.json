@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "tsup --dts"
+    "build": "tsup --dts --format esm"
   },
   "tsup": {
     "entry": ["src/index.ts"],
@@ -22,6 +22,9 @@
     "react",
     "dapps",
     "web3"
+  ],
+  "files": [
+    "/dist"
   ],
   "author": "Keenan Nemetz <keenan.nemetz@pm.me>",
   "license": "MIT",
