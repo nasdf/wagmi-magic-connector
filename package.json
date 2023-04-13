@@ -1,6 +1,6 @@
 {
   "name": "@nasdf/wagmi-magic-connector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wagmi connector for Magic Auth",
   "type": "module",
   "main": "dist/index.js",
@@ -10,7 +10,9 @@
     "build": "tsup --dts --format esm"
   },
   "tsup": {
-    "entry": ["src/index.ts"],
+    "entry": [
+      "src/index.ts"
+    ],
     "splitting": false,
     "sourcemap": true,
     "clean": true
