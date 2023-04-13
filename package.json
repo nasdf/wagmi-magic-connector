@@ -1,6 +1,6 @@
 {
   "name": "@nasdf/wagmi-magic-connector",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Wagmi connector for Magic Auth",
   "type": "module",
   "main": "dist/index.js",
