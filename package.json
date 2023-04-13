@@ -1,0 +1,43 @@
+{
+  "name": "@nasdf/wagmi-magic-connector",
+  "version": "0.0.1",
+  "description": "Wagmi connector for Magic Auth",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup --dts"
+  },
+  "tsup": {
+    "entry": ["src/index.ts"],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "keywords": [
+    "wagmi",
+    "magic",
+    "ethereum",
+    "react",
+    "dapps",
+    "web3"
+  ],
+  "author": "Keenan Nemetz <keenan.nemetz@pm.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "ethers": "^5.7.2",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@magic-ext/oauth": "^10.2.0",
+    "@magic-sdk/provider": "^16.2.0",
+    "@wagmi/core": "^0.10.9",
+    "magic-sdk": "^16.2.0",
+    "web3-core": "^1.5.2"
+  },
+  "peerDependencies": {
+    "ethers": "^5.7.2"
+  }
+}
