@@ -1,4 +1,6 @@
-# WAGMI Magic Connector
+# wagmi-magic-connector
+
+Wagmi connector for Magic Auth
 
 ## Install
 
