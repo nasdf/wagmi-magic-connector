@@ -38,6 +38,7 @@
   "dependencies": {
     "@magic-ext/oauth": "^10.2.0",
     "@magic-sdk/provider": "^16.2.0",
+    "@wagmi/connectors": "^0.3.13",
     "@wagmi/core": "^0.10.9",
     "magic-sdk": "^16.2.0",
     "web3-core": "^1.5.2"

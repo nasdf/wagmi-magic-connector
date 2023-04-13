@@ -17,7 +17,6 @@ import { LoginWithMagicLinkConfiguration, Magic } from 'magic-sdk'
 import type { AbstractProvider } from 'web3-core'
 
 type Provider = RPCProviderModule & AbstractProvider
-
 type Options = MagicSDKAdditionalConfiguration<string, OAuthExtension[]> & { apiKey: string }
 
 export class MagicConnector extends Connector<
@@ -32,14 +31,8 @@ export class MagicConnector extends Connector<
   #magic?: InstanceWithExtensions<SDKBase, OAuthExtension[]>
   #login?: () => Promise<any>
 
-  constructor({
-    chains,
-    options = { apiKey: '' },
-  }: {
-    chains?: Chain[]
-    options?: Options
-  } = {}) {
-    super({ chains, options })
+  constructor(config: { chains?: Chain[]; options: Options }) {
+    super(config)
     this.#createMagic()
   }
 

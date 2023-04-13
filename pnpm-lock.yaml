@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@magic-ext/oauth': ^10.2.0
   '@magic-sdk/provider': ^16.2.0
+  '@wagmi/connectors': ^0.3.13
   '@wagmi/core': ^0.10.9
   ethers: ^5.7.2
   magic-sdk: ^16.2.0
@@ -13,6 +14,7 @@ specifiers:
 dependencies:
   '@magic-ext/oauth': 10.2.0
   '@magic-sdk/provider': 16.2.0
+  '@wagmi/connectors': 0.3.13_disjzzmqxik44qymeo4kufljwy
   '@wagmi/core': 0.10.9_gelajh7tsabbujtccl2c2d4lqy
   magic-sdk: 16.2.0
   web3-core: 1.9.0
@@ -676,7 +678,7 @@ packages:
       '@json-rpc-tools/utils': 1.7.6
       axios: 0.21.4
       safe-json-utils: 1.1.1
-      ws: 7.4.6
+      ws: 7.5.9
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -1122,6 +1124,46 @@ packages:
 
   /@wagmi/connectors/0.3.12_disjzzmqxik44qymeo4kufljwy:
     resolution: {integrity: sha512-Ui8wyAMI3V8pnDlmTVSug7S53sTSNkgFuGrxFoKxQrTQJIC+AvD7CbeiYKcbFxrIrv9c/sTK5ySL4IBe+KjFUQ==}
+    peerDependencies:
+      '@wagmi/core': '>=0.9.x'
+      ethers: '>=5.5.1 <6'
+      typescript: '>=4.9.4'
+    peerDependenciesMeta:
+      '@wagmi/core':
+        optional: true
+      typescript:
+        optional: true
+    dependencies:
+      '@coinbase/wallet-sdk': 3.6.5
+      '@ledgerhq/connect-kit-loader': 1.0.2
+      '@safe-global/safe-apps-provider': 0.15.2
+      '@safe-global/safe-apps-sdk': 7.10.1
+      '@wagmi/core': 0.10.9_gelajh7tsabbujtccl2c2d4lqy
+      '@walletconnect/ethereum-provider': 2.6.2_jgh3te6j4q2ywloalvuxhp7eti
+      '@walletconnect/legacy-provider': 2.0.0
+      '@web3modal/standalone': 2.3.0
+      abitype: 0.3.0_typescript@5.0.4
+      ethers: 5.7.2
+      eventemitter3: 4.0.7
+      typescript: 5.0.4
+    transitivePeerDependencies:
+      - '@babel/core'
+      - '@react-native-async-storage/async-storage'
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - bufferutil
+      - debug
+      - encoding
+      - lokijs
+      - react
+      - supports-color
+      - utf-8-validate
+      - zod
+    dev: false
+
+  /@wagmi/connectors/0.3.13_disjzzmqxik44qymeo4kufljwy:
+    resolution: {integrity: sha512-9h/Ffff0r+WfmoLl9cf6Skk6uJVRNUEtLi4AG88CyDR4b2l5TulF2c+aqxqhZQHGnhGgoP0jq2VINnRKn9a4vg==}
     peerDependencies:
       '@wagmi/core': '>=0.9.x'
       ethers: '>=5.5.1 <6'
