@@ -2,6 +2,23 @@
   "name": "@nasdf/wagmi-magic-connector",
   "version": "0.0.4",
   "description": "Wagmi connector for Magic Auth",
+  "author": "Keenan Nemetz <keenan.nemetz@pm.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nasdf/wagmi-magic-connector"
+  },
+  "keywords": [
+    "wagmi",
+    "magic",
+    "ethereum",
+    "react",
+    "dapps",
+    "web3"
+  ],
+  "files": [
+    "/dist"
+  ],
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,19 +34,6 @@
     "sourcemap": true,
     "clean": true
   },
-  "keywords": [
-    "wagmi",
-    "magic",
-    "ethereum",
-    "react",
-    "dapps",
-    "web3"
-  ],
-  "files": [
-    "/dist"
-  ],
-  "author": "Keenan Nemetz <keenan.nemetz@pm.me>",
-  "license": "MIT",
   "devDependencies": {
     "ethers": "^5.7.2",
     "tsup": "^6.7.0",

@@ -12,7 +12,7 @@ pnpm add @nasdf/wagmi-magic-connector
 
 ## Usage
 
-Choose Ethereum Mainnet
+Ethereum Mainnet
 
 ```javascript
 import { MagicConnector } from '@nasdf/wagmi-magic-connector'
@@ -25,7 +25,7 @@ const connector = new MagicConnector({
 })
 ```
 
-Configure Custom Nodes
+Custom Nodes
 
 ```javascript
 import { MagicConnector } from '@nasdf/wagmi-magic-connector'
@@ -43,7 +43,7 @@ const connector = new MagicConnector({
 })
 ```
 
-Connect With Magic Link
+Connect with Magic Link
 
 ```javascript
 import { useState } from 'react'
